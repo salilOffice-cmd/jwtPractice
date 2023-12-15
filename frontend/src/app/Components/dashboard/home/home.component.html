@@ -1,0 +1,27 @@
+
+<table border="1" cellspacing="0">
+    <tr>
+        <th>CarId </th>
+        <th>CarName </th>
+        <th>Details </th>
+        <th>Edit </th>
+    </tr>
+    <tr *ngFor="let car of AllCarsList">
+        <td>{{car.carId}}</td>
+        <td>{{car.carName}}</td>
+        <td>
+            <button (click)=findClickedCar(car.carId)>Details</button>
+            <div *ngIf="foundClickedCar && foundClickedCar.carId === car.carId">
+                <app-car-details [ClickedCar] = "foundClickedCar"></app-car-details>
+            </div>
+
+        </td>
+        <td>
+            <button (click)=EditClickedCar(car.carId)>Edit</button>
+            <div *ngIf="editClickedCar === car.carId">
+                <app-edit-car-details [ClickedCar] = "foundClickedCar"></app-edit-car-details>
+            </div>
+        </td>
+
+    </tr>
+</table>

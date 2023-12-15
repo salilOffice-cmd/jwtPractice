@@ -1,0 +1,38 @@
+<section id="login">
+    <form (ngSubmit) = "onSubmit(loginForm.value)" #loginForm="ngForm">
+        <input
+            type="text"
+            name="userName"
+            placeholder="Username" 
+            #usernameINP="ngModel" 
+            ngModel
+            required>
+        <!-- <span *ngIf="usernameINP.invalid">Username should be required</span> -->
+         <br> <br>
+        
+        <input
+            type="text"
+            name="password" 
+            placeholder="Password" 
+            #passwordINP="ngModel" 
+            ngModel
+            required>
+        <br> <br>
+        
+
+        <button [disabled]="loginForm.invalid" type="submit">Login</button>
+        <h4>Not Registered Yet? <a routerLink="../register">Register</a></h4>
+    </form>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<router-outlet></router-outlet>

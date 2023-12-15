@@ -1,0 +1,53 @@
+<section id="editCar">
+    <form (ngSubmit) = "onSubmit(editForm.value)" #editForm="ngForm">
+        <input
+            type="text"
+            name="carName"
+            placeholder="carName" 
+            #carNameINP="ngModel" 
+            ngModel
+            required>
+        <!-- <span *ngIf="usernameINP.invalid">Username should be required</span> -->
+         <br> <br>
+        
+        <input
+            type="text"
+            name="contact_Details" 
+            placeholder="contact_Details" 
+            #contact_DetailsINP="ngModel" 
+            ngModel
+            required>
+        <!-- <span *ngIf="passwordINP.invalid">Password should be minimum 3 letters</span> -->
+        <br> <br>
+
+
+        <input
+            type="text"
+            name="price" 
+            placeholder="price" 
+            #priceINP="ngModel" 
+            ngModel
+            required>
+        <!-- <span *ngIf="passwordINP.invalid">Password should be minimum 3 letters</span> -->
+        <br> <br>
+        
+        <select #categoryINP name="category" ngModel required>
+            <option value="Buy">Buy</option>
+            <option value="Rent">Rent</option>
+        </select>
+
+        <button [disabled]="editForm.invalid" type="submit">Edit</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<router-outlet></router-outlet>

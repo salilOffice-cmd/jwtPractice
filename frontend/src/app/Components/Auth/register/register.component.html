@@ -1,0 +1,41 @@
+<section id="register">
+    <form (ngSubmit) = "onSubmit(registerForm.value)" #registerForm="ngForm">
+        <input
+            type="text"
+            name="userName"
+            placeholder="Username" 
+            #usernameINP="ngModel" 
+            ngModel
+            required>
+         <br> <br>
+        
+        <input
+            type="text"
+            name="password" 
+            placeholder="Password" 
+            #passwordINP="ngModel" 
+            ngModel
+            required>
+        <br> <br>
+        
+        <select #roleInp2 name="role" ngModel required>
+            <option value="Seller">Seller</option>
+            <option value="Buyer">Buyer</option>
+        </select>
+
+        <button [disabled]="registerForm.invalid" type="submit">Register</button>
+        <h4>Already Registered? <a routerLink="../login">Login</a></h4>
+    </form>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<router-outlet></router-outlet>

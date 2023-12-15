@@ -1,0 +1,17 @@
+<table border="1" cellspacing="0">
+    <tr>
+        <th>carId</th>
+        <th>carName</th>
+        <th>contact_Details</th>
+        <th>price</th>
+    </tr>
+
+    <tr *ngFor="let car of gotCars">
+        <td>{{car.carId}}</td>
+        <td>{{car.carName}}</td>
+        <td>{{car.contact_Details}}</td>
+        <td>{{car.price}}</td>
+        <button (click)="cartClick(car)">Add to Cart</button>
+    </tr>
+    
+</table>
