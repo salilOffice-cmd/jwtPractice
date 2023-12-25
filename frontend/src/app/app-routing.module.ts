@@ -47,7 +47,7 @@ const routes: Routes = [
       {
         component: AddCarsComponent,
         path: 'addcars',
-        canActivate: [AddCarGuard],
+        // canActivate: [AddCarGuard],
       },
       {
         component: CartComponent,

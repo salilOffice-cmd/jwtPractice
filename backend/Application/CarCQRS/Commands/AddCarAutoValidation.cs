@@ -1,32 +1,32 @@
-﻿using Application.DTOs;
-using Application.DTOs.CarDTOs;
+﻿using Application.DTOs.CarDTOs;
 using Application.UserCQRS.Commands;
 using Domain.Entities;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Application.CarCQRS.Commands
 {
-    public class AddCar : IRequest<ResponseMessage>
+    public class AddCarAutoValidation : IRequest<ResponseMessage>
     {
         public AddCarDTO _car { get; set; }
+        public string _jwtToken { get; set; }
     }
 
 
-    public class AddCar_Handler : IRequestHandler<AddCar, ResponseMessage>
+    public class AddCarAutoValidation_Handler : IRequestHandler<AddCarAutoValidation, ResponseMessage>
     {
         private readonly IApplicationDBContext context;
-        public AddCar_Handler(IApplicationDBContext _applicationDBContext)
+        public AddCarAutoValidation_Handler(IApplicationDBContext _applicationDBContext)
         {
             context = _applicationDBContext;
         }
 
-        public async Task<ResponseMessage> Handle(AddCar request, CancellationToken cancellationToken)
+        public async Task<ResponseMessage> Handle(AddCarAutoValidation request, CancellationToken cancellationToken)
         {
             var carDTO = request._car;
 
@@ -45,10 +45,13 @@ namespace Application.CarCQRS.Commands
                 return new ResponseMessage("Car Added successfully", 200);
             }
 
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return new ResponseMessage("Server Error", 500);
             }
+
+
+
 
 
         }

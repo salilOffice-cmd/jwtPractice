@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj": {
+    "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\salildeogade\\.nuget\\packages\\",
-        "outputPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\obj\\",
+        "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\sahil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salildeogade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sahil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\Domain.csproj"
+              "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\Domain.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -69,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\Domain.csproj": {
+    "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\salildeogade\\.nuget\\packages\\",
-        "outputPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\sahil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salildeogade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sahil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,21 +128,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\salildeogade\\.nuget\\packages\\",
-        "outputPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\sahil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salildeogade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sahil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,8 +156,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj": {
-                "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj"
+              "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj"
               }
             }
           }
@@ -195,21 +199,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\salildeogade\\.nuget\\packages\\",
-        "outputPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\sahil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salildeogade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sahil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,11 +227,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj": {
-                "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj"
+              "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj"
               },
-              "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -245,6 +249,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -280,7 +288,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

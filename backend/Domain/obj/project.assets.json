@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\salildeogade\\.nuget\\packages\\": {}
+    "C:\\Users\\sahil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\salildeogade\\.nuget\\packages\\",
-      "outputPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\sahil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\salildeogade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sahil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

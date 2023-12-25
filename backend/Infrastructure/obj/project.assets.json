@@ -89,6 +89,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1090,6 +1109,7 @@
         "dependencies": {
           "Domain": "1.0.0",
           "MediatR": "12.2.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.14",
           "Microsoft.EntityFrameworkCore": "7.0.14"
         },
         "compile": {
@@ -1196,6 +1216,21 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.2.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.14": {
+      "sha512": "640Jjm2NnpQYHew0I2RyP2PjBKfB1ItSDYHX1TD+ooJov+b+ELPuo/GgrJCNJr3ZI1YmplmsQv88d8JRojZ+fA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.7.0.14.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2983,19 +3018,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\salildeogade\\.nuget\\packages\\": {}
+    "C:\\Users\\sahil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\salildeogade\\.nuget\\packages\\",
-      "outputPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\sahil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\salildeogade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sahil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3009,8 +3044,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj": {
-              "projectPath": "D:\\DayUsers\\SalilDeogade\\Official\\Assessments\\Test4\\dotnetCode\\Dotnet_Assessment4\\Application\\Application.csproj"
+            "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\sahil\\source\\repos\\jwt\\finalTest4\\backend\\Application\\Application.csproj"
             }
           }
         }
@@ -3052,7 +3087,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

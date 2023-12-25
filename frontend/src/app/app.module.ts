@@ -16,6 +16,7 @@ import { BuyCarsComponent } from './Components/dashboard/buy-cars/buy-cars.compo
 import { HomeComponent } from './Components/dashboard/home/home.component';
 import { CarDetailsComponent } from './Components/dashboard/home/car-details/car-details.component';
 import { EditCarDetailsComponent } from './Components/dashboard/home/edit-car-details/edit-car-details.component';
+import { JwtModule } from '@auth0/angular-jwt';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,15 @@ import { EditCarDetailsComponent } from './Components/dashboard/home/edit-car-de
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: () => {
+          return localStorage.getItem('jwt');
+        },
+        allowedDomains: ['https://localhost:7032']
+      },
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

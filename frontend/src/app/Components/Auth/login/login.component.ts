@@ -19,17 +19,12 @@ export class LoginComponent {
     this.authAPIService.loginAPI(formValues).subscribe(response => {
       console.log(response);
       
-      alert(response._message)
+      // alert(response._message)
       if(response._statusCode == 200){
 
-        this.authAPIService.getUserByUserNameAPI(formValues.userName).subscribe(response => {
-          console.log(response);
-          
-          localStorage.setItem('role', response.role);
-          localStorage.setItem('isLoggedIn', response.isLoggedIn);
-          this.router.navigate(['/dashboard']);
-
-        });
+        localStorage.setItem('jwt', response._message);
+        this.router.navigate(['/dashboard']);
+        console.log(response);
 
       }
     })
